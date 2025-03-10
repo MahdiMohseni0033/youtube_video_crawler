@@ -74,5 +74,5 @@ youtube-video-crawler/
 ```
 
 ## Author
-This README was written by Mahdi Mohseni
+This README was written by **Mahdi Mohseni**
 Email: mahdimohseni0333@gmail.com
