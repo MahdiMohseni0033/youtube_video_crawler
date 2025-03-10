@@ -1,0 +1,210 @@
+# --- General ---
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+*.env
+*.env.local
+*.env.*.local
+*.terraform/
+*.terraform.lock.hcl
+
+# --- Dependency directories ---
+node_modules/
+bower_components/
+vendor/
+.pnp/
+.pnp.js
+.yarn/
+.yarn-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+out/
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- IDE and Editor files ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# --- OS-specific files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Compiled source ---
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.lib
+*.dylib
+*.out
+*.app
+
+# --- Package files ---
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.msi
+*.gem
+*.whl
+
+# --- Logs and databases ---
+*.log
+*.sql
+*.sqlite
+*.db
+*.dump
+
+# --- Testing frameworks ---
+coverage/
+.nyc_output/
+test-results/
+*.lcov
+*.xml
+*.trx
+
+# --- Environment files ---
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# --- Framework-specific ---
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.manifest
+*.spec
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Ruby
+*.gem
+.bundle/
+.ruby-version
+
+# Java
+*.class
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+.gradle/
+.idea/
+out/
+build/
+
+# Go
+bin/
+pkg/
+
+# Rust
+/target/
+**/*.rs.bk
+
+# C/C++
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.pdb
+*.map
+*.exp
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# --- Windows ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# --- Linux ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# --- Docker ---
+docker-compose.override.yml
+docker-compose.*.yml
+.dockerignore
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+.terraform.lock.hcl
+
+# --- Kubernetes ---
+kubeconfig
+*.kubeconfig
+
+# --- Misc ---
+*.bak
+*.patch
+*.diff
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache/
+*.scssc
+*.css.map
+*.js.map
+*.min.js
+*.min.css
